@@ -12,7 +12,8 @@ public class Secao_04 {
 //		ExSomaSimples.run();
 //		RaioDeUmCirculo.run();
 //		Diferenca1.run();
-		Salary.run();
+//		Salary.run();
+		ValorProduto.run();
 
 	}
 
