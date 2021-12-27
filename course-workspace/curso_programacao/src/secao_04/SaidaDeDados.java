@@ -1,7 +1,7 @@
 package secao_04;
 import java.util.Locale;
 
-public class SaidaDeDadps {
+public class SaidaDeDados {
 
 	static public void run() {
 		/**
