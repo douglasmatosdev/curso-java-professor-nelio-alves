@@ -1,4 +1,4 @@
-package secao_04;
+package secao_04.exercicios;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -17,7 +17,7 @@ import java.util.Scanner;
  *
  */
 
-public class RaioDeUmCirculo {
+public class ExRaioDeUmCirculo {
 	public static void run() {
 		
 		Locale.setDefault(Locale.US);

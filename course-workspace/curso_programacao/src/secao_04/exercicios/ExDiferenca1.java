@@ -1,4 +1,4 @@
-package secao_04;
+package secao_04.exercicios;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  */
 
-public class Diferenca1 {
+public class ExDiferenca1 {
 
 	public static void run() {
 		

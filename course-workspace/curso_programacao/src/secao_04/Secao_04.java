@@ -1,5 +1,7 @@
 package secao_04;
 
+import secao_04.exercicios.ExValorProduto;
+
 public class Secao_04 {
 
 	public static void run() {
@@ -13,7 +15,7 @@ public class Secao_04 {
 //		RaioDeUmCirculo.run();
 //		Diferenca1.run();
 //		Salary.run();
-		ValorProduto.run();
+		ExValorProduto.run();
 
 	}
 
