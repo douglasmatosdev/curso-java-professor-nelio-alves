@@ -11,8 +11,9 @@ public class Secao_04 {
 //		ExSaidaDeDados.run();
 //		ExSomaSimples.run();
 //		RaioDeUmCirculo.run();
-		Diferenca1.run();
-	
+//		Diferenca1.run();
+		Salary.run();
+
 	}
 
 }
