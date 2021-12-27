@@ -12,7 +12,8 @@ public class Secao_04 {
 //		QuebraDeLinhaPendente.run();
 //		FuncoesMatematicas.run();
 //		ExSaidaDeDados.run();
-		ExSomaSimples.run();
+//		ExSomaSimples.run();
+		RaioDeUmCirculo.run();
 	
 	}
 
