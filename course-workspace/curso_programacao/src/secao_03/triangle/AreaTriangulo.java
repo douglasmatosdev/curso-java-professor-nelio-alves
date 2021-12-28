@@ -1,4 +1,4 @@
-package secao_03;
+package secao_03.triangle;
 
 import java.util.Locale;
 import java.util.Scanner;

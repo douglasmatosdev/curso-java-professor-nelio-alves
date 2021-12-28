@@ -1,4 +1,4 @@
-package secao_03; // pacote da classe
+package secao_03.triangle; // pacote da classe
 
 /**
  * 
