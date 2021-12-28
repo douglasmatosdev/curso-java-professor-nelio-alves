@@ -1,6 +1,6 @@
 package secao_03;
 
-import secao_03.student.ProgramStudent;
+import secao_03.esfere.EsfereProgram;
 
 public class Secao_03 {
 
@@ -10,6 +10,7 @@ public class Secao_03 {
 //		ProgramProductStock.run();
 //		ProgramRectangle.run();
 //		ProgramEmployee.run();
-		ProgramStudent.run();
+//		ProgramStudent.run();
+		EsfereProgram.run();
 	}
 }
