@@ -1,6 +1,6 @@
 package secao_03;
 
-import secao_03.employee.ProgramEmployee;
+import secao_03.student.ProgramStudent;
 
 public class Secao_03 {
 
@@ -9,6 +9,7 @@ public class Secao_03 {
 //		ProgramTriangle.run();
 //		ProgramProductStock.run();
 //		ProgramRectangle.run();
-		ProgramEmployee.run();
+//		ProgramEmployee.run();
+		ProgramStudent.run();
 	}
 }
