@@ -1,13 +1,13 @@
 package secao_03;
 
-import secao_03.productstock.ProgramProductStock;
-import secao_03.triangle.ProgramTriangle;
+import secao_03.rectangle.ProgramRectangle;
 
 public class Secao_03 {
 
 	public static void main() {
 //		AreaTriangulo.run();
 //		ProgramTriangle.run();
-		ProgramProductStock.run();
+//		ProgramProductStock.run();
+		ProgramRectangle.run();
 	}
 }
