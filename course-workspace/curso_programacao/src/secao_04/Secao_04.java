@@ -1,6 +1,6 @@
 package secao_04;
 
-import secao_04.exercicios.ExValorProduto;
+import secao_04.exercicios.ExGeometria;
 
 public class Secao_04 {
 
@@ -15,7 +15,8 @@ public class Secao_04 {
 //		RaioDeUmCirculo.run();
 //		Diferenca1.run();
 //		Salary.run();
-		ExValorProduto.run();
+//		ExValorProduto.run();
+		ExGeometria.run();
 
 	}
 
