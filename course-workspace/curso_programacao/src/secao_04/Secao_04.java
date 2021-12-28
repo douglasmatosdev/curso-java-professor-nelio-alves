@@ -4,7 +4,7 @@ import secao_04.exercicios.ExGeometria;
 
 public class Secao_04 {
 
-	public static void run() {
+	public static void main() {
 //		SaidaDeDados.run();
 //		EntradaDeDados.run();
 //		LendoAteQuebraDeLinha.run();
