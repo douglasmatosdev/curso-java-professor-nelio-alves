@@ -1,6 +1,6 @@
 package secao_03;
 
-import secao_03.esfere.EsfereProgram;
+import secao_03.currency.ProgramCurrencyConverter;
 
 public class Secao_03 {
 
@@ -11,6 +11,7 @@ public class Secao_03 {
 //		ProgramRectangle.run();
 //		ProgramEmployee.run();
 //		ProgramStudent.run();
-		EsfereProgram.run();
+//		EsfereProgram.run();
+		ProgramCurrencyConverter.run();
 	}
 }
