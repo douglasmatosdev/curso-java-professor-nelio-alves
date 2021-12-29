@@ -1,10 +1,12 @@
 package secao_05;
 
-import secao_05.telefonia.ProgramTelefonia;
+import secao_05.diadasemana.ProgramDiaDaSemanaIfElse;
 
 public class Secao_05 {
 
 	public static void main() {
-		ProgramTelefonia.run();
+//		ProgramTelefonia.run();
+//		ProgramDiaDaSemanaSwitchCase.run();
+		ProgramDiaDaSemanaIfElse.run();
 	}
 }
