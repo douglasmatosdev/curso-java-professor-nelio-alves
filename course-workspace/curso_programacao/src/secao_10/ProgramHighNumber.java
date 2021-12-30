@@ -3,6 +3,16 @@ package secao_10;
 import java.util.Locale;
 import java.util.Scanner;
 
+/**
+ * 
+ * @author douglas
+ * 
+ *         Fazer um programa para ler um número inteiro N e a altura de N
+ *         pessoas. Armazene as N alturas em um vetor. Em seguida, mostrar a
+ *         altura média dessas pessoas.
+ *
+ */
+
 public class ProgramHighNumber {
 
 	public static void run() {
