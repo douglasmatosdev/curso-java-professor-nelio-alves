@@ -13,7 +13,7 @@ import java.util.Scanner;
  *
  */
 
-public class ProgramHighNumber {
+public class ProgramAverageHigher {
 
 	public static void run() {
 
