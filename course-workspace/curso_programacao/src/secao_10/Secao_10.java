@@ -1,6 +1,6 @@
 package secao_10;
 
-import secao_10.exercices.ExMatriz;
+import secao_10.exercices.ExMatrizSolved;
 
 public class Secao_10 {
 
@@ -13,6 +13,7 @@ public class Secao_10 {
 //		ExProgramEmployee.run();
 //		ExProgramEmployeeUsingStream.run();
 //		ProgramMatriz.run();
-		ExMatriz.run();
+//		ExMatriz.run();
+		ExMatrizSolved.run();
 	}
 }
