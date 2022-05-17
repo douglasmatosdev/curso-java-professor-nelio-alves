@@ -26,4 +26,10 @@ public class BusinessAccount extends Account {
             balance += loanLimit - 10.0;
         }
     }
+
+    @Override
+    public void withDraw(Double amount) {
+       super.withDraw(amount);
+       balance -= 2.0;
+    }
 }
