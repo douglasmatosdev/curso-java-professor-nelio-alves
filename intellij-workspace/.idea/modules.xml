@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/curso_programacao.iml" filepath="$PROJECT_DIR$/curso_programacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/intellij-workspace.iml" filepath="$PROJECT_DIR$/intellij-workspace.iml" />
     </modules>
   </component>
 </project>
