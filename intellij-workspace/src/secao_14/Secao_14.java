@@ -1,7 +1,6 @@
 package secao_14;
 
-//import secao_14.bankAbstractClass.application.ProgramAbstractClass;
-import secao_14.shapesAbstractMethod.application.ProgramAbstractMethod;
+import secao_14.exe3.application.ProgramTaxPayer;
 
 public class Secao_14 {
 
@@ -10,7 +9,8 @@ public class Secao_14 {
 //        ProgramExe1.run();
 //        ProgramExe2.run();
 //        ProgramAbstractClass.run();
-        ProgramAbstractMethod.run();
+//        ProgramAbstractMethod.run();
+        ProgramTaxPayer.run();
     }
 
 }
