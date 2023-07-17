@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/entrada_de_dados.iml" filepath="$PROJECT_DIR$/entrada_de_dados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/entrada_de_dados_parte_um.iml" filepath="$PROJECT_DIR$/entrada_de_dados_parte_um.iml" />
     </modules>
   </component>
 </project>
