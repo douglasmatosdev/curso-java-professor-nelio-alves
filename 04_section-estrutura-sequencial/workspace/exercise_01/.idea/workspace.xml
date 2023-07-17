@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d357f030-f406-4c0f-8c70-c4e81f17bb41" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../03_section-introducao-a-linguagem-java/workspace/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03_section-introducao-a-linguagem-java/workspace/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/curso_programacao/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/module-info.java" beforeDir="false" />
-    </list>
+    <list default="true" id="d357f030-f406-4c0f-8c70-c4e81f17bb41" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +17,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "/home/dsilva/www/curso-java-professor-nelio-alves/04_section-estrutura-sequencial/workspace/exercise_01"
   }
