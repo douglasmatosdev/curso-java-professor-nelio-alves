@@ -3,13 +3,14 @@ package application;
 import exercices.Exercise01;
 import exercices.Exercise02;
 import exercices.Exercise03;
+import exercices.Exercise04;
 
 import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
 
-        String[] exercicesList = {"Employee", "Student", "Rectangle"};
+        String[] exercicesList = {"Employee", "Student", "Rectangle", "Currency converter"};
         Scanner sc = new Scanner(System.in);
 
         for (int i = 0; i < exercicesList.length; i++) {
@@ -27,6 +28,9 @@ public class Program {
                 break;
             case 3:
                 Exercise03.run();
+                break;
+            case 4:
+                Exercise04.run();
                 break;
             default:
                 System.out.println("Invalid number, please, enter number again!");
