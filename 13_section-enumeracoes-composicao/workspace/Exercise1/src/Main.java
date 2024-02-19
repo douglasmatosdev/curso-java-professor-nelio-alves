@@ -13,62 +13,48 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws ParseException {
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+
         Locale.setDefault(Locale.US);
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter client data: ");
-
+        System.out.println("Enter client data:");
         System.out.print("Name: ");
-        String name = scanner.nextLine();
-
+        String name = sc.nextLine();
         System.out.print("Email: ");
-        String email = scanner.nextLine();
+        String email = sc.next();
+        System.out.print("Birth date (DD/MM/YYYY): ");
+        Date birthDate = sdf.parse(sc.next());
 
-        System.out.print("Birth date (DD/MM/YYYY: ");
-        String birthDate = scanner.nextLine();
+        Client client = new Client(name, email, birthDate);
 
         System.out.println("Enter order data:");
         System.out.print("Status: ");
-        String status = scanner.nextLine();
+        OrderStatus status = OrderStatus.valueOf(sc.next());
 
-        Client client = new Client(name, email, sdf.parse(birthDate));
-        Order order = new Order(new Date(), OrderStatus.valueOf(status), client);
+        Order order = new Order(new Date(), status, client);
 
         System.out.print("How many items to this order? ");
-        int n = scanner.nextInt();
-
-        for (int i = 1; i <= n; i++) {
-            System.out.println("Enter #" + i + "  item data:");
-
+        int N = sc.nextInt();
+        for (int i = 1; i <= N; i++) {
+            System.out.println("Enter #" + i + " item data:");
             System.out.print("Product name: ");
-            String productName = scanner.next();
-
+            sc.nextLine();
+            String productName = sc.nextLine();
             System.out.print("Product price: ");
-            double productPrice = scanner.nextDouble();
-
+            double productPrice = sc.nextDouble();
             System.out.print("Quantity: ");
-            int productQuantity = scanner.nextInt();
+            int quantity = sc.nextInt();
 
             Product product = new Product(productName, productPrice);
 
-            OrderItem orderItem = new OrderItem(productQuantity, productPrice, product);
+            OrderItem it = new OrderItem(quantity, productPrice, product);
 
-            order.addItem(orderItem);
+            order.addItem(it);
         }
+
         System.out.println();
-        System.out.println("ORDER SUMMARY:");
-        System.out.println("Order moment: " + order.getMoment());
-        System.out.println("Order status: " + order.getStatus());
-        System.out.println("Client: " + order.getClient().getName() + " (" + order.getClient().getBirthDate() + ") - " + order.getClient().getEmail());
-        System.out.println("Order items: ");
+        System.out.println(order);
 
-        double sum = 0.0;
-        for (OrderItem oi : order.getOrderItems()) {
-            System.out.println(oi.toString());
-            sum += oi.subTotal();
-        }
-        System.out.printf("Total price: $%.2f%n", sum);
-
-        scanner.close();
+        sc.close();
     }
 }
