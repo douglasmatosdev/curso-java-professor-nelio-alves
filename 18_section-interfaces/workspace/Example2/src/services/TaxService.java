@@ -1,2 +1,5 @@
-package services;public interface TaxService {
+package services;
+
+public interface TaxService {
+    double tax(double amount);
 }

@@ -1,3 +1,5 @@
+package entities;
+
 public class Invoice {
     private Double basicPayment;
     private Double tax;

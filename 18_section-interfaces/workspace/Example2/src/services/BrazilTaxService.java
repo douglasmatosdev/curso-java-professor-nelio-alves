@@ -1,4 +1,6 @@
-public class BrazilTaxService {
+package services;
+
+public class BrazilTaxService implements TaxService {
 
     public double tax(double amount) {
         if (amount <= 100.0) {
