@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="206f001c-c8e0-4fa7-9f57-755d03ec9d4b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/application/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/application/UI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/boardgame/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/boardgame/BoardException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/boardgame/Piece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/boardgame/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chess/ChessException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chess/ChessMatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chess/ChessPiece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chess/ChessPosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chess/Color.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chess/pieces/King.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/chess/pieces/Rook.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2hw1EErhHyWYDVz2MDti8wZ64DI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/dsilva/www/curso-java-professor-nelio-alves/16_section-projeto-sistema-de-xadrez/workspace/ChessSystemJava"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.chess.pieces" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="206f001c-c8e0-4fa7-9f57-755d03ec9d4b" name="Changes" comment="" />
+      <created>1718490212962</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718490212962</updated>
+    </task>
+    <servers />
+  </component>
+</project>
