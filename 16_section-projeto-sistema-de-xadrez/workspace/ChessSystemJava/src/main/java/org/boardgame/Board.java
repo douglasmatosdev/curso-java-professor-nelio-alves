@@ -1,6 +1,7 @@
 package org.boardgame;
 
 public class Board {
+
     private int rows;
     private int columns;
     private Piece[][] pieces;
@@ -58,7 +59,7 @@ public class Board {
     }
 
     private boolean positionExists(int row, int column) {
-        return row >= 0 && row < rows && column >= 0 && column <= columns;
+        return row >= 0 && row < rows && column >= 0 && column < columns;
     }
 
     public boolean positionExists(Position position) {
