@@ -1,4 +1,4 @@
-package org;
+package org.entities;
 
 import java.util.Objects;
 
