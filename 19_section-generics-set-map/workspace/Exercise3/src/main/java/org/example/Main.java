@@ -25,7 +25,8 @@ public class Main {
                 int votes = Integer.parseInt(fields[1]);
 
                 if (map.containsKey(name)) {
-                    map.put(name, map.get(name) + votes);
+                    int count = map.get(name);
+                    map.put(name, count + votes);
                 } else {
                     map.put(name, votes);
                 }
@@ -33,13 +34,13 @@ public class Main {
                 line = br.readLine();
             }
 
+            for (String key : map.keySet()) {
+                System.out.println(key + ": " + map.get(key));
+            }
         } catch (IOException e) {
             System.out.println("Error: " + e.getMessage());
         }
 
-        for (Map.Entry m : map.entrySet()) {
-            System.out.println(m.getKey() + ": " + m.getValue());
-        }
         sc.close();
     }
 }
