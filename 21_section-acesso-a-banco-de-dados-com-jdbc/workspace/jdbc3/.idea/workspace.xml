@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fcb229a-36c6-4827-8772-97023ac1b96c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/DB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/db/DbException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc2/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc2/db.properties" afterDir="false" />
-    </list>
+    <list default="true" id="6fcb229a-36c6-4827-8772-97023ac1b96c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
