@@ -24,7 +24,7 @@ public class Programa {
 
         emf.close();
         em.close();
-        
+
         System.out.println("Pronto!");
     }
 }
