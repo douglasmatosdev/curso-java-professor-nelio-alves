@@ -1,7 +1,7 @@
 package com.douglasmatosdev.course.resources;
 
 import com.douglasmatosdev.course.entities.Order;
-import com.douglasmatosdev.course.services.OrderrService;
+import com.douglasmatosdev.course.services.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,7 +16,7 @@ import java.util.List;
 public class OrderResource {
 
     @Autowired
-    private OrderrService service;
+    private OrderService service;
 
     @GetMapping
     public ResponseEntity<List<Order>> findAll() {
